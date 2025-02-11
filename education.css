@@ -50,6 +50,33 @@ nav .items a:hover{
     color: white;
 }
 
+.container {
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-left: 4px solid aqua;
+}
+.education-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed aqua;
+}
+.edu-left {
+    text-align: left;
+}
+.edu-right {
+    text-align: right;
+    font-weight: bold;
+    color: aqua;
+}
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
 @media (max-width : 1300px){
     nav{
         display: flex;
