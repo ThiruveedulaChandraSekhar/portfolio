@@ -45,6 +45,44 @@ nav .items a:hover{
     text-decoration: underline;
     color: aqua;
 }
+.container {
+    color: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-left: 4px solid aqua;
+}
+.project-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: 1px dashed aqua;
+}
+.proj-left {
+    text-align: left;
+}
+.proj-right {
+    text-align: right;
+    font-weight: bold;
+    color: aqua;
+}
+h1 {
+    text-align: center;
+    color: aqua;
+}
+h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+p {
+    margin: 5px 0;
+    font-size: 1em;
+}
+.tech {
+    font-style: italic;
+    color: lightgray;
+}
 
 .container{
     color: white;
