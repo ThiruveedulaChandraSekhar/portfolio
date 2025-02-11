@@ -87,7 +87,12 @@ nav .items a:hover{
     color: aqua;
     transition: .5s;
 }
-
+.line {
+    width: 80%;
+    height: 2px;
+    background-color: aqua;
+    margin: 20px auto;
+}
 .container .text a:hover{
     color: white;
 }
@@ -104,6 +109,12 @@ nav .items a:hover{
 }
 
 @media (max-width : 1300px){
+    .line {
+        width: 80%;
+        height: 2px;
+        background-color: aqua;
+        margin: 20px auto;
+    }
     nav{
         display: flex;
         flex-direction: column;
@@ -126,6 +137,12 @@ nav .items a:hover{
 }
 
 @media (max-width : 400px){
+    .line {
+        width: 80%;
+        height: 2px;
+        background-color: aqua;
+        margin: 20px auto;
+    }
     nav{
         display: none;
     }
